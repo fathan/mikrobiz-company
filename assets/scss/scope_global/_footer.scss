@@ -43,16 +43,48 @@
     }
 
     .box-footer-bottom{
-    	text-align: center;
     	padding: 40px 0px;
     	border-top: 1px solid #FFFFFF;
     	margin-top: 20px;
     	display: inline-block;
     	width: 100%;
 
-    	span{
-    		color: $color-white;
-    		letter-spacing: 1px;
+    	.corpyright{
+    		float: left;
+    		width: 70%;
+
+    		span{
+	    		color: $color-white;
+	    		letter-spacing: 1px;
+	    	}
+    	}
+
+    	.social-media{
+    		float: right;
+    		width: 30%;
+
+    		.list-social-media{
+    			float: right;
+    			right: 0px;
+
+    			.btn-social-media{
+		    		border-radius: 50%;
+		    		width: 35px;
+		    		height: 35px;
+		    		padding: 6px 9px;
+		    		color: #fff;
+				    background-color: #2c3e50;
+				    border-color: #fff;
+
+		    		i{
+		    			text-align: center;
+		    		}
+
+		    		&:hover{
+		    			background-color: #4e6173;
+		    		}
+		    	}
+    		}
     	}
     }
 }

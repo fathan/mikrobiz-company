@@ -35,6 +35,21 @@ website: http://microbiz.co
 			display: none;
 		}
 	}
+
+	.corpyright{
+		float: left;
+		width: 100%;
+	}
+
+	.social-media{
+		float: left;
+		width: 100%;
+
+		.list-social-media{
+			float: left;
+			right: 0px;
+		}
+	}
 }
 
 @media screen and (max-width: 650px) {
