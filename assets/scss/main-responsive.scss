@@ -1,0 +1,58 @@
+/* ---------------------------------
+Stylesheet Responsive for Microbiz
+
+version: 1.0
+author : Fathan Rohman
+email  : karir.fathan@gmail.com
+website: http://microbiz.co
+-----------------------------------*/
+
+@media screen and (max-width: 1500px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 950px) {
+
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	.dropdown-menu{
+		border: 0px solid rgba(0, 0, 0, .15);
+
+		&:before{
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 550px) {
+
+}
+
+@media screen and (max-width: 450px) {
+
+}
+
+@media screen and (max-width: 350px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
