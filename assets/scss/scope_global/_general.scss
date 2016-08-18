@@ -6,6 +6,7 @@ body{
 a{
 	text-decoration: none;
 	cursor: pointer;
+    @include transition(0.4s);
 }
 
 #back-to-top {
@@ -28,11 +29,13 @@ a{
     font-size: 20px;
     padding: 0px;
     border-radius: 50%;
+    @include transition(0.4s);
 }
 
 #back-to-top:hover {
     background: #FFFFFF;
     color: #3a536d;
+    @include transition(0.4s);
 }
 
 #back-to-top.show {

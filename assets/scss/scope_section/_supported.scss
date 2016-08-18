@@ -1,5 +1,4 @@
 .supported{
-	background-color: #FFFFFF;
 	padding: 70px 0px;
 	text-decoration: none;
 
@@ -28,6 +27,7 @@
 	.box-wrapper{
 		display: inline-block;
 		width: 100%;
+		margin-bottom: 40px;
 
 		.list-pic{
 			display: inline-block;
@@ -44,6 +44,7 @@
 				-moz-filter: grayscale(1) !important;
 				-ms-filter: grayscale(1) !important;
 				filter: grayscale(1) !important;
+				@include transition(0.4s);
 
 				&:hover{
 					filter: none;
@@ -51,6 +52,7 @@
 					-moz-filter: grayscale(0) !important;
 					-ms-filter: grayscale(0) !important;
 					filter: grayscale(0) !important;
+					@include transition(0.4s);
 				}
 
 				img{

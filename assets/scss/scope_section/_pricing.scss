@@ -46,6 +46,33 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
     color: #fff;
     line-height: 30px;
+    @include transition(0.4s);
+
+    &:hover{
+        .price{
+            background: $color-microbiz-green;
+            color: $color-white;
+            @include transition(0.4s);
+        }
+
+        .type{
+            background: $color-microbiz-green;
+            color: $color-white;
+            @include transition(0.4s);
+        }
+
+        ul{
+            background: $color-microbiz-green;
+            color: $color-white;
+            @include transition(0.4s);
+        }
+
+        .pricing-footer{
+            background: $color-microbiz-green;
+            color: $color-white;
+            @include transition(0.4s);
+        }
+    }
 }
 
 .db-pricing-eleven ul {
@@ -53,6 +80,8 @@
     margin: 0;
     text-align: center;
     padding-left: 0px;
+    background-color: #1e55a3;
+    @include transition(0.4s);
 }
 
 .db-pricing-eleven ul li {
@@ -71,6 +100,7 @@
     font-size: 60px;
     font-weight: 900;
     color: #25a748;
+    @include transition(0.4s);
 }
 
 .db-pricing-eleven .price small {
@@ -86,10 +116,13 @@
     font-weight: 900;
     text-transform: uppercase;
     font-size: 30px;
+    @include transition(0.4s);
 }
 
 .db-pricing-eleven .pricing-footer {
     padding: 45px;
+    background-color: #1e55a3;
+    @include transition(0.4s);
 }
 
 .db-attached > .col-lg-4,
