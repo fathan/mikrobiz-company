@@ -7,6 +7,8 @@ email  : karir.fathan@gmail.com
 website: http://microbiz.co
 -----------------------------------*/
 
+@import "scope_global/fonts";
+@import "scope_global/variabel";
 @import "scope_global/mixins";
 @import "scope_global/general";
 @import "scope_global/button";
@@ -15,3 +17,7 @@ website: http://microbiz.co
 @import "scope_global/footer";
 
 @import "scope_section/bootstrap";
+@import "scope_section/supported";
+@import "scope_section/vacility";
+@import "scope_section/pricing";
+@import "scope_section/contact";

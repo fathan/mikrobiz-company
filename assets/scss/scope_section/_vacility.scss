@@ -1,0 +1,38 @@
+.vacility{
+	width: 100%;
+	padding: 70px 0px;
+
+	.box-image{
+		width: 75%;
+		height: auto;
+		display: inline-block;
+		margin: auto;
+		display: table;
+		
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.description{
+		width: 100%;
+		display: inline-block;
+
+		.title{
+			font-size: 25px;
+			font-family: caviar-dreams-bold;
+			margin-bottom: 20px;
+			text-transform: capitalize;
+			color: $color-black;
+		}
+
+		.desc{
+			font-size: 14px;
+			color: #6f6f6f;
+			line-height: 25px;
+			margin-bottom: 30px;
+			text-align: justify;
+		}
+	}
+}

@@ -1,0 +1,62 @@
+.contact-location{
+	padding: 70px 0px;
+	width: 100%;
+	background: $color-white;
+
+	.location{
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+
+		&:hover{
+			.icon{
+				background: #21a24a;
+    			border: 1px solid #21a24a;
+
+    			i{
+    				color: $color-white;
+    			}
+			}
+		}
+
+		.icon{
+			text-align: center;
+		    margin-bottom: 30px;
+		    display: inline-block;
+		    width: 150px;
+		    height: 150px;
+		    border: 1px solid #000000;
+		    border-radius: 50%;
+		    padding: 40px 0px;
+
+
+			i{
+				font-size: 70px;
+				color: $color-black;
+			}
+		}
+
+		.name{
+			font-size: 20px;
+			color: $color-microbiz-blue;
+			font-family: caviar-dreams-bold;
+			margin-bottom: 10px;
+		}
+
+		.description{
+
+		}
+	}
+}
+
+.contact-form{
+	padding: 70px 0px;
+	width: 100%;
+	background: $color-gray-light;
+
+	label{
+		sup{
+			color: red;
+		}
+	}
+}
