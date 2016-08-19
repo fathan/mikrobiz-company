@@ -16,11 +16,57 @@ website: http://microbiz.co
 }
 
 @media screen and (max-width: 1024px) {
+	.carousel-caption{
+		.caption-title{
+			font-size: 20px;
+		}
 
+		.description{
+			font-size: 16px;
+		}
+	}
+
+	.vacility{
+		.description{
+			.title{
+				font-size: 18px;
+			}
+
+			.description{
+				font-size: 12px;
+			}
+		}
+	}
+
+	.db-pricing-eleven{
+		.type{
+			font-size: 20px;
+		}
+	}
+
+	.introduction-footer{
+		.box-introduce{
+			.title{
+				font-size: 20px;
+			}
+
+			.description{
+				font-size: 16px;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 950px) {
+	.navbar-default .navbar-nav > li > a {
+		font-size: 10px;
+	}
 
+	.db-pricing-eleven{
+		.type{
+			font-size: 14px;
+		}
+	}
 }
 
 @media screen and (max-width: 850px) {
@@ -54,10 +100,72 @@ website: http://microbiz.co
 	.btn-authentication-in{
 		margin-right: 0px;
 	}
+
+	.box-icon-left{
+		width: 70px;
+		height: 70px;
+		top: 40%;
+
+		.fa{
+			font-size: 40px;
+			margin-top: 15px;
+		}
+	}
+
+	.box-icon-right{
+		width: 70px;
+		height: 70px;
+		top: 40%;
+
+		.fa{
+			font-size: 40px;
+			margin-top: 15px;
+		}
+	}
+
+	.carousel-caption{
+		bottom: 30%;
+
+		.caption-title{
+			font-size: 16px;
+		}
+
+		.description{
+			font-size: 12px;
+		}
+	}
+
+	.quote {
+		blockquote{
+			font-size: 12px;
+
+			.ceo-quote{
+				font-size: 12px;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 650px) {
+	.footer-wrapper{
+		.box-footer-bottom{
+			.corpyright {
+			    float: left;
+			    width: 100%;
+			    margin-bottom: 20px;
+			}
 
+			.social-media {
+			    float: left;
+			    width: 100%;
+
+			    .list-social-media {
+			    	float: left;
+			    	left: 0px;
+			    }
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 550px) {
@@ -65,7 +173,39 @@ website: http://microbiz.co
 }
 
 @media screen and (max-width: 450px) {
+	.box-icon-left{
+		width: 30px;
+		height: 30px;
+		top: 40%;
 
+		.fa{
+			font-size: 20px;
+			margin-top: 0px;
+		}
+	}
+
+	.box-icon-right{
+		width: 30px;
+		height: 30px;
+		top: 40%;
+
+		.fa{
+			font-size: 20px;
+			margin-top: 0px;
+		}
+	}
+
+	.carousel-caption{
+		bottom: 10%;
+
+		.caption-title{
+			font-size: 12px;
+		}
+
+		.description{
+			font-size: 10px;
+		}
+	}
 }
 
 @media screen and (max-width: 350px) {
