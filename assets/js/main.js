@@ -8,6 +8,8 @@ website: http://microbiz.co
 -----------------------------------*/
 
 $(document).ready(function () {
+	new WOW().init();
+	
 	// TOOLTIP
 	$('[data-toggle="tooltip"]').tooltip()
 	

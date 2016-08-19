@@ -144,6 +144,11 @@ website: http://microbiz.co
 			}
 		}
 	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	    color: #777;
+	    font-size: 10px;
+	}
 }
 
 @media screen and (max-width: 650px) {

@@ -9,6 +9,14 @@ a{
     @include transition(0.4s);
 }
 
+.microbiz-wrapper{
+    overflow: hidden;
+}
+
+.wow {
+   visibility: hidden;
+}
+
 
 // BACK TO TOP
 #back-to-top {

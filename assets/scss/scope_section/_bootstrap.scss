@@ -79,6 +79,21 @@
 	border-radius: 0px;
 	margin-bottom: 15px;
 	border: 1px solid rgba(30, 85, 163, 0.68);
+	height: 50px;
+}
+
+.footer-wrapper{
+	.input-group{
+		.form-control{
+			height: 50px;
+		}
+
+		.input-group-btn{
+			.btn{
+				padding: 13px 12px;
+			}
+		}
+	}
 }
 
 // CAROUSEL
