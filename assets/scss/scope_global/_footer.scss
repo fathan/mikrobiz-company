@@ -1,23 +1,27 @@
 .introduction-footer{
 	// background-image: url(../images/hexagon.png);
 	background-color: #333333;
-    padding: 70px 0px;
+    padding: 70px 0px 70px 0px;
     text-align: center;
 
 
-    .title{
-    	font-size: 25px;
-    	color: $color-white;
-    	font-weight: bold;
-    	letter-spacing: 2px;
-    	margin-bottom: 7px;
-    }
+    .box-introduce{
+    	margin-bottom: 40px;
+    	
+    	.title{
+	    	font-size: 25px;
+	    	color: $color-white;
+	    	font-weight: bold;
+	    	letter-spacing: 2px;
+	    	margin-bottom: 7px;
+	    }
 
-    .description{
-    	font-size: 20px;
-    	color: $color-white;
-    	letter-spacing: 2px;
-    	margin-bottom: 30px;
+	    .description{
+	    	font-size: 20px;
+	    	color: $color-white;
+	    	letter-spacing: 2px;
+	    	margin-bottom: 30px;
+	    }
     }
 }
 
