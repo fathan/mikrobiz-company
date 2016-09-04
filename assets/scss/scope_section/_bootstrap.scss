@@ -201,22 +201,27 @@
 }
 
 .carousel-caption{
-	bottom: 40%;
-	background: rgba(0, 0, 0, 0.71);
+	bottom: 15%;
 
-	.caption-title{
-		font-size: 30px;
-		color: #FFFFFF;
-		letter-spacing: 2px;
-		margin-bottom: 10px;
+	.box-content{
+		background: rgba(0, 0, 0, 0.71);
+		padding: 20px 0px;
+		margin-bottom: 25px;
 
-		span{
-			color: $color-microbiz-green;
+		.caption-title{
+			font-size: 30px;
+			color: #FFFFFF;
+			letter-spacing: 2px;
+			margin-bottom: 10px;
+
+			span{
+				color: $color-microbiz-green;
+			}
 		}
-	}
 
-	.description{
-		font-size: 16px;
-		font-family: open-sans-light;
+		.description{
+			font-size: 16px;
+			font-family: open-sans-light;
+		}
 	}
 }
