@@ -5,6 +5,10 @@
 	border: 0px solid transparent;
 	box-shadow: 0 1px 2px #bbbbbb;
 	text-transform: uppercase;
+
+	.navbar-right{
+		margin-top: 5px;
+	}
 }
 
 .navbar-default {
@@ -225,3 +229,11 @@
 		}
 	}
 }
+
+// TABS
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */

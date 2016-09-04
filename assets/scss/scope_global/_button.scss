@@ -1,6 +1,6 @@
 .btn-authentication-in{
 	background: $color-microbiz-blue;
-    padding: 18px 25px;
+    padding: 10px 25px!important;
     color: #FFFFFF!important;
     text-transform: uppercase;
     margin-right: 10px;
@@ -8,6 +8,7 @@
     letter-spacing: 2px;
     font-size: 12px;
     display: block;
+    border-radius: 50px;
 
     &:hover{
     	background: rgba(30,85,163,1);
@@ -23,13 +24,14 @@
 
 .btn-authentication-up{
 	background: $color-microbiz-green;
-    padding: 18px 25px;
+    padding: 10px 25px!important;
     color: #FFFFFF!important;
     text-transform: uppercase;
     font-family: quicksand-bold;
     letter-spacing: 2px;
     font-size: 12px;
     display: block;
+    border-radius: 50px;
 
     &:hover{
     	background: rgba(30,85,163,1);
