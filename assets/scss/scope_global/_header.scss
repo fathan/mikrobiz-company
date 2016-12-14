@@ -24,12 +24,83 @@ h1{
 	background: linear-gradient(135deg, rgba(30,85,163,1) 0%, rgba(30,85,163,1) 8%, rgba(30,85,163,1) 18%, rgba(33,164,71,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e55a3', endColorstr='#21a447', GradientType=1 );
 
-
 	.title{
 		font-size: 30px;
 		font-family: caviar-dreams-bold;
 		color: $color-white;
 		margin-bottom: 30px;
+	}
+
+	.description{
+		font-family: open-sans-regular;
+		text-align: center;
+		margin-bottom: 30px;
+		color: $color-white;
+
+		p{
+			line-height: 30px;
+			color: $color-white;
+			font-size: 16px;
+		}
+	}
+}
+
+.sub-header-2{
+	padding: 70px 0px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	background: url('../images/slider_3.jpg');
+	background-size: cover;
+	background-attachment:fixed;
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  display: block;
+	border-bottom: 1px solid #e5e4e4;
+	position: relative;
+
+	.bg-color{
+		background: rgba(245, 245, 245, 0.61);
+		position: absolute;
+		top: 0; 
+		left: 0; 
+		min-width: 100%;
+		min-height: 100%;
+	}
+
+	.content{
+		width: 100%;
+		display: block;
+		margin-top: 100px;
+
+		img{
+			margin-bottom: 20px;
+		}
+
+		.title{
+			font-size: 30px;
+			font-family: caviar-dreams-bold;
+			color: #333333;
+			text-shadow: 1px 1px #FFFFFF;
+			margin-bottom: 25px;
+		}
+
+		.sub-title{
+			font-size: 23px;
+			font-family: caviar-dreams-bold;
+			color: #333333;
+			text-shadow: 1px 1px #FFFFFF;
+			margin-bottom: 30px;
+		}
+	}
+
+	#note{
+	  font-family: open-sans-regular;
+	  font-size: 20px;
+	  color: #333333;
+	  text-shadow: 1px 1px #FFFFFF;
 	}
 
 	.description{
