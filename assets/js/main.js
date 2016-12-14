@@ -9,6 +9,11 @@ website: http://microbiz.co
 
 $(document).ready(function () {
 	new WOW().init();
+
+	// MENU TOGGLE DOWN
+	$(".dropdown-toggle").click(function(){
+	    $(".dropdown-menu").slideDown();
+	});
 	
 	// TOOLTIP
 	$('[data-toggle="tooltip"]').tooltip()
