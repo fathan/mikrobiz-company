@@ -56,6 +56,33 @@
 	}
 }
 
+.about-comming-soon{
+	padding: 50px 0px;
+	width: 100%;
+	background: #20a347;
+
+	.box-desc-top-about{
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+
+		.title-top{
+			font-family: open-sans-bold;
+			color: #EEEEEE;
+			font-size: 30px;
+			margin-bottom: 30px;
+			text-transform: capitalize;
+		}
+
+		.desc-top{
+			font-family: open-sans-regular;
+			color: #FFFFFF;
+			font-size: 16px;
+			margin-bottom: 30px;
+		}
+	}
+}
+
 .vacility{
 	width: 100%;
 	padding: 70px 0px;
@@ -80,7 +107,7 @@
 		margin-bottom: 20px;
 
 		.title{
-			font-size: 25px;
+			font-size: 20px;
 			font-family: caviar-dreams-bold;
 			margin-bottom: 20px;
 			text-transform: capitalize;
@@ -95,6 +122,11 @@
 			line-height: 25px;
 			margin-bottom: 30px;
 			text-align: justify;
+
+			video{
+				float: left;
+				border: 1px solid #CCCCCC;
+			}
 		}
 	}
 }
