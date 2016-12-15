@@ -213,7 +213,7 @@
                 <div class="panel panel-default">
                   <div class="panel-body">
                     <div class="row">
-                      <form method="POST" action="https://script.google.com/macros/s/AKfycbzH62geHtcWi0BK0b2Ch32m3qYq6_puxw2zuK2YlFjOGu2CBKCM/exec" onsubmit="window.location='http://mikrobiz.co', 5000">
+                      <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzH62geHtcWi0BK0b2Ch32m3qYq6_puxw2zuK2YlFjOGu2CBKCM/exec">
                         <div class="col-md-12">
                           <p>Isi formulir sebagai berikut</p>
                         </div>
@@ -236,6 +236,13 @@
                           </button>
                         </div>
                       </form>
+                      <div class="col-md-12">
+                        <div style="display:none;" id="thankyou_message">
+                          <div class="alert alert-success">
+                            Terima kasih! Kami akan menghubungi Anda segera.
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -286,6 +293,7 @@
       <i class="fa fa-chevron-up"></i>
     </a>
   </div>
+  <script data-cfasync="false" type="text/javascript" src="assets/js/form-submission-handler.js"></script>
 </body>
 
 <!-- SCOPE JAVASCRIPT -->
@@ -295,6 +303,19 @@
 <script src="assets/js/countdown.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 <script src="assets/js/main.js"></script>
+<!-- <script type="text/javascript">
+  $('#contact-form').submit(function() {
+    $.ajax({
+      type: 'POST',
+      url: $(this).attr('action'),
+      dataType: 'json',
+      success: function(json) {
+        window.location = "http://mikrobiz.co";
+      }
+    }
+  })
+  return false;
+</script> -->
 <script>
   $(document).ready(function() {
     $('#media').carousel({

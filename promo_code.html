@@ -67,7 +67,7 @@
                 <div class="row">
                   <a href="/"><img src="assets/images/logo.png" alt=""></a>
                   <br>
-                  <form id="contact-form" method="POST" action="https://script.google.com/macros/s/AKfycbzH62geHtcWi0BK0b2Ch32m3qYq6_puxw2zuK2YlFjOGu2CBKCM/exec"onsubmit="window.location='http://mikrobiz.co', 5000">
+                  <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzH62geHtcWi0BK0b2Ch32m3qYq6_puxw2zuK2YlFjOGu2CBKCM/exec">
                     <div class="col-md-12">
                       <input type="text" id="inputKode" name="kode" class="form-control" placeholder="Kode promo" required>
                     </div>
@@ -90,6 +90,16 @@
                       </button>
                     </div>
                   </form>
+                  <div class="col-md-12">
+                    <div style="display:none;" id="thankyou_message">
+                      <div class="alert alert-success">
+                        Terima kasih! Kami akan menghubungi Anda segera.
+                      </div>
+                      <a href="/" class="btn btn-primary btn-block">
+                        kembali ke halaman utama
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -98,6 +108,11 @@
       </div>
     </section>
   </div>
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
+  <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 
 <!-- SCOPE JAVASCRIPT -->
@@ -105,12 +120,19 @@
 <script src="assets/js/jquery.scrolltofixed.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/main.js"></script>
-<script type="text/javascript">
-  function redirect() {
-    window.location.replace("http://mikrobiz.co");
-    return false;
-  }
-</script>
+<!-- <script type="text/javascript">
+  $('#contact-form').submit(function() {
+    $.ajax({
+      type: 'POST',
+      url: $(this).attr('action'),
+      dataType: 'json',
+      success: function(json) {
+        window.location = "http://mikrobiz.co";
+      }
+    }
+  })
+  return false;
+</script> -->
 <script>
   $(window).resize(function() {
     $('.sub-header-2').height($(window).height() - 141);
